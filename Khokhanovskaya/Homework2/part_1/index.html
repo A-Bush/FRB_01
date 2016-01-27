@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background: url("bg.png")  repeat-y, 
+                    #f3f3f3 url("bg_mirr.png") 100% 0 repeat-y;
+            }
+            
+            table, div{
+                width: 1000px;
+                margin: auto;                
+            }
+        
+            #menu {                
+                color: #505050;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                text-align: center;
+                width: 140px;
+                height: 50px;
+                vertical-align: middle;            
+            }
+            
+            #tablecontent{
+                border-collapse: separate;
+                border-spacing: 20px;
+                vertical-align: top;
+            }
+            
+            #content {
+                border-radius: 20px;
+                padding: 20px;
+                background-color: #f9f9f9;
+                text-align: left;
+                width: 140px;
+                font-family: 'Calibri';    
+                font-size: 15px;
+                border: 3px solid lightgrey;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+            }
+        
+
+            .button1 {
+                border-radius: 10px;
+                color: white;
+                width: 250px;
+                height: 40px;
+                font-size: 13px;
+                font-weight: bold;    
+                text-align: center;            margin: 4px 15px;
+                transition-duration: 0.4s;
+                background-color: white;
+                color: black;
+                border: 2px solid #e7e7e7;
+            }
+
+
+            .button1:hover {
+                background-color: #e7e7e7;
+            }
+            
+            .button2 {
+                width: 138px;
+                height: 36px;
+                padding-top: 20px;
+                transition-duration: 0.4s;
+                display:block;
+                padding: 20px 20px 20px 0 px;
+                
+            }
+
+
+            .button2:hover {
+                background-color: #e7e7e7;
+                width: 138px;
+                height: 36px;    
+                display:block;
+                
+            }
+            
+            .panel{
+                width: 250px; 
+                border: 3px solid #e7e7e7;   
+                transition-duration: 0.4s;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            
+            .panel:hover{
+                border: 3px solid lightgray;
+            }
+            
+            .box {
+                opacity: 0.6;
+                transition-duration: 0.4s;
+            }
+
+            .box:hover {
+                opacity: 1.0;
+            }
+
+        </style>
+    </head>
+
+    <body>
+         
+        <table>
+            <tr style="height: 380px;">
+                <td style="background-color: black; border: 3px solid lightgrey; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0px 3px 20px 10px rgba(0, 0, 0, 0.5); padding: 0px;">
+                    <img src="head_all.png" alt="logo" title="CoRE" align="right">
+                </td>
+            </tr>
+        </table>
+        
+        <br>
+        
+        <div style="height: 60px; width: 1000px; background-image: url(navig.png);">
+            <table id="navig" style="height: 60px; width: 1000px; padding: 0px; border: 0px;">
+                <tr>
+                    <td id="menu"><div class="button2">Главная</div></td>
+                    <td id="menu"><a class="button2">Услуги</a></td>
+                    <td id="menu"><a class="button2">Прайс</a></td>
+                    <td id="menu"><a class="button2">Контакты</a></td>
+                    <td id="menu"><a class="button2">Видео Блог</a></td>
+                    <td id="menu"><a class="button2">Статьи</a></td>
+                    <td id="menu"><a class="button2">О нас</a></td>
+                </tr>
+            </table>
+        </div>
+                
+        <table id="tablecontent">
+            <tr>
+                <td id="content" style="width: 300px; text-align: center;">
+                    <button class="button1"><img src="loup.png" width="15" style="position: absolute; left: 260px;">
+                        Отслеживание ремонта</button>
+                    <button class="button1"><img src="man.png" width="20" style="position: absolute; left: 260px;">Вход для партнеров</button>
+<br><br>
+                    <div class="panel"><br>
+                    
+                        <img class="box" src="pic1.jpg" alt="picture" style="width: 180px;"><br><br>
+                        Принципы диагностики<br><br>
+                    </div>
+                    <br>
+                    <div class="panel"><br>
+                        <img class="box" src="pic2.jpg" alt="picture" style="width: 180px;">
+                        <br><br>
+                        BGA монтаж<br><br>
+                    </div>
+                </td>
+                <td id="content" style="width: 700px">
+                     <h1>Контактная информация:</h1>
+
+                    <h3>Прием заказов осуществляется по предварительной договоренности.</h3>
+
+                    <p>Тел. 044-599-17-55, 067-167-01-01</p>
+                    <p>ICQ: 617558325</p>
+                    <p>Skype: <a href="">service_core</a></p>
+<pre><i>
+г.Киев
+Левый берег
+ул. Коллекторная 3-А
+М. Бориспольская
+e-mail :  <a href="mailto:example@example.com">info@service-core.com.ua</a></i><br>
+График работы: пн-пт с 10:00 до 18:00. сб, вс - выходные дни.</pre>
+
+<p><b>Работаем с регионами.<br>
+Доставка осуществляется с помощью транспортной компании <span style="color: red;">"Нова Пошта"</span>.</b></p>
+
+                    <p><b>Получение:</b> 1-3 дня с момента доставки в отделение назначения.</p>
+
+<p><b>Сроки ремонта:</b> от 3 дней (в зависимости от сложности и наличия необходимых деталей на нашем складе).</p>
+
+<p><b>Отправка:</b> в течении 1-3 дня после завершения работ.</p>
+                    
+                    
+                </td>
+            </tr>
+        </table>
+        
+    </body>    
+</html>
