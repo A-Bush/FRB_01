@@ -1,0 +1,18 @@
+body {
+  background: #c0c0c0;
+}
+
+.example1 {
+  width: 580px;
+  font-style: italic;
+}
+
+table { border-bottom: 3px solid black;}
+
+.example2 { float: left;
+          margin-top: 5px;
+          margin-left: 5px;
+
+        }
+.example2 img {margin-top: 20px;
+}
