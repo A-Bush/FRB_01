@@ -1,0 +1,40 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Таблица</title>
+  <style type="text/css">
+   body {
+    font-size: 1.5em; /* Размер текста */
+   }
+   table {
+    width: 40%; /* Ширина таблицы */
+   }
+   td { padding: 5px; }
+   td.col1 { background: #1E90FF; color: white; font-family: Verdana;}
+   td.col2 { background: grey; color: gray; }
+   td.col3 { background: #D3D3D3; color: #D3D3D3; }
+  </style>
+ </head>
+ <body>
+   <table class=primer1 width="40%" cellpadding="0">
+    <tr>
+     <td class="col1" bgcolor="#1E90FF"><p align="Center" >Имя</p></td>
+	 <td class="col1" bgcolor="#1E90FF"><p align="Center">Фамилия</p></td>
+	 <td class="col1" bgcolor="#1E90FF"><p align="Center">Телефон</p></td>
+	 <td class="col1" bgcolor="#1E90FF"><p align="Center">E-mail</p></td>
+    </tr>
+    <tr>
+     <td class="col2" bgcolor="#1E90FF" align="Center">Ячейка 1</td>
+	 <td class="col2" bgcolor="#1E90FF" align="Center">Ячейка 2</td>
+	 <td class="col2" bgcolor="#1E90FF" align="Center">Ячейка 3</td>
+	 <td class="col2" bgcolor="#1E90FF" align="Center">Ячейка 4</td>
+    </tr>
+	<tr>
+     <td class="col3" bgcolor="#1E90FF" align="Center">Ячейка 5</td>
+	 <td class="col3" bgcolor="#1E90FF" align="Center">Ячейка 6</td>
+	 <td class="col3" bgcolor="#1E90FF" align="Center">Ячейка 7</td>
+	 <td class="col3" bgcolor="#1E90FF" align="Center">Ячейка 8</td>
+    </tr>
+   </table> 
+ </body>
+</html>
