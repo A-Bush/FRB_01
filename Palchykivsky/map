@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>КарТА</title>
+    </head>
+    <body style=" background-color:Silver; text-align:center;">
+        
+        <img src="C:\Users\o.palchikivskiy\Desktop\Homework.jpg"  alt ="Home work"  title ="Home work"  width="1000px" usemap="#Home work" />
+        
+        <map id="Home work" name="Home work">
+           
+            <area shape="rect" coords="5, 5, 80, 500" alt="tree1" title="Дерево" href="#" />
+		    <area shape="rect" coords="100, 140, 150, 250" alt="Tree2" title="Дерево" href="#"/>
+            <area shape="rect" coords="150, 190, 300, 260" alt="City" title="Поселок" href="#" />      
+            <area shape="circle" coords="465, 60, 20" alt="plain" title="Самолет" href="#" />
+			<area shape="circle" coords="575, 200, 20" alt="sky" title="Солнце" href="#" />
+			<area shape="rect" coords="900, 150, 830, 230" alt="house" title="Домик" href="#" />
+            <area shape="poly" coords="950, 196, 890, 233, 950, 270, 990, 270" alt="road" title="Дорога" href="#"/>
+        
+        </map>
+        
+        <p>
+       Домашняя работа
+        </p>
+    </body>
+</html>
