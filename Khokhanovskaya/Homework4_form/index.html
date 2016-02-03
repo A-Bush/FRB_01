@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       
+       <style>
+           #all{
+               background-color: #272727;
+               width: 900px;
+               height: 300px;
+               border-radius: 10px;
+               
+           }
+           
+           h2{
+               color: white;
+               font-family: monospace;
+               font-weight: 100;
+               font-size: 16px;
+               margin-bottom: 30px;
+           }
+           
+           .bold{
+               font-weight: bold;
+               color: white;
+               font-family: monospace;
+               font-size: 13px;
+               margin: 20px 0;
+           }
+           
+           .normal{
+               font-size: 10px;
+               color: #999999;
+               font-family: monospace;
+           }
+           
+           .col{
+               float: left;
+               width: 260px;
+               margin-top: 10px;
+               padding: 0 15px;
+               height: 280px;
+               border-right: 1px solid #333333; 
+               
+               
+               
+           }
+           
+           label{
+               display: inline-block;
+               font-weight: bold;
+               color: #999999;
+               font-family: monospace;
+               font-weight: 100;
+               font-size: 10px;
+               
+           }
+           
+           input[type=text], input[type=password]{
+               background-color: #414141;
+               outline: none;
+               border: 1px solid #1A1A1A;
+               width: 230px;
+               padding-left: 5px;
+               font-family: monospace;
+               font-weight: 100;
+               font-size: 10px;
+               margin: 5px 0 15px;
+               
+           }
+           
+           input[type=checkbox]{
+               margin: 0px 0 15px 0;
+           }
+           
+           input[type=submit]{
+               border-radius: 40px;
+               padding: 3px 20px;
+               font-weight: bold;
+               font-family: monospace;
+               font-size: 13px;
+           }
+           
+           .submit_login{
+               background: linear-gradient(white, #999999, white);
+               border: 1px solid white;
+           }
+           
+           .register{
+               background: linear-gradient(#0078B6, #004876, #0078B6);
+               color: white;
+               border: 1px solid #2D93C6;
+           }
+       
+       </style>
+   
+   </head>
+   
+   <body>
+       <div id="all">
+           <div class="col">
+               <h2>Добро пожаловать на Webo4ku</h2>
+               <p class="bold">Красивая всплывающая панель для сайта Ucoz на jQuery</p>
+               <p class="normal">Вы можете поместить что-нибудь, что Вы хотите в этой скользящей группе: видео, изображения, формы...</p>
+               <p class="bold">Download</p>
+               <p class="normal">Чтобы загрузить этот подлинник возвращаются к статье...</p>
+           </div>
+           
+           <div class="col">
+               <h2>Member Login</h2>
+               <form class="login">
+                   <label for="name" class="login">Username:</label><br>
+                   <input type="text" id="name" name="name">
+                   <br>
+                   <label for="pass" class="pass">Password:</label><br>
+                   <input type="password" id="pass" name="pass">
+                   <br>
+                   
+                   <input type="checkbox" id="remember" name="remember" value="Remember" checked> <label for="remember" class="login">Remember me</label><br>
+                   <input type="submit" value="Login"
+                   class="submit_login">
+                   
+                   
+               </form>
+           </div>
+           
+           <div class="col">
+               <h2>Not a member yet? Sign Up!</h2>
+               <form class="sign_up">
+                  <label for="name" class="login">Username:</label><br>
+                   <input type="text" id="name" name="name">
+                   <br>
+                   <label for="email" class="name">Email:</label><br>
+                   <input type="text" id="email" name="email">
+                   <br>
+                   <p class="normal">A password will be e-mailed to you.</p>
+                   <input type="submit" value="Register" class="register">
+                   
+                   
+                   
+               </form>
+           </div>                   
+           
+       </div>
+       
+   </body>
+    
+</html>
