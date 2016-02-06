@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Форма входа</title>
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="border_block"></div>
+		<div class="block">
+			<div class="block_signIn">
+				<span class="headText">Member Login</span><br/>
+				<form>
+					<label for="name" class="labelMargin">Username:</label><br/>
+					<input type="text" id="name" /><br/>
+					<label for="pass" class="labelMargin">Password:</label><br/>
+					<input type="password" id="pass" /><br/>
+					<input type="checkbox" id="check" checked="checked" />
+					<label for="check" class="check">Remember me</label><br/>
+					<input type="submit" class="btn_1" value="Login" />
+					<a href="#lostPass">Lost you password?</a>
+				</form>
+			</div>
+			<div class="block_register">
+				<span class="headText">Not a member yet? Sign Up!</span><br/>
+				<form>
+					<label for="name" class="labelMargin">Username:</label><br/>
+					<input type="text" id="name" /><br/>
+					<label for="pass" class="labelMargin">Email:</label><br/>
+					<input type="password" id="pass" /><br/>
+					<label class="check">A password will be e-mailed to you.</label><br/>
+					<input type="submit" class="btn_2" value="Register" />
+				</form>
+			</div>
+			<div class="block_bottom">
+				<div class="flag">Hello Guest!</div>
+				<div class="closePanel">Close Panel</div>
+			</div>
+		</div>
+	</body>
+</html>
