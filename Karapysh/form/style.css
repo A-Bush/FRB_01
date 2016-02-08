@@ -1,0 +1,122 @@
+.background {
+
+            height: 300px;
+            width: 900px;
+            background-color: #333;
+            margin: auto;
+            border-radius: 20px;
+            position: relative;
+
+}
+
+.left {
+          color: #fff;
+          width: 300px;
+          border-right: 1px solid #666;
+          padding-top: 3px;
+          float: left;
+
+
+}
+
+.left span {
+       font-size: 10px;
+       color:#c0c0c0;
+
+}
+.left a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.centr {
+           float: left;
+           width: 250px;
+
+           border-right: 80px solid #ccc;
+
+           }
+
+.center p { color:#c0c0c0;
+            font-size:11px;
+            margin-left: 310px;
+            letter-spacing: 1px;
+            }
+
+.input { height: 10px;
+         width: 180px;
+         background-color: #666;
+         border: 1px solid black;
+         margin-top: 3px;
+         }
+.button {
+
+         border-radius: 10px;
+         margin-left:10px;
+         width: 70px;
+         border: 1px solid #fff;
+       }
+.textbutton1 {
+
+         font-size: 12px;
+         color: #6cf;
+
+}
+
+.right {
+  float:right;
+  margin-top: -195px;
+  margin-right: 50px;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  padding-left: 10px;
+  padding-right: 70px;
+}
+
+.right p  { color:#c0c0c0;
+            font-size:11px;
+
+            letter-spacing: 1px;
+            }
+.button1 {
+
+            position: absolute;
+            width: 80px;
+            background: #36c;
+            border: 1px solid #36c;
+            color: #fff;
+            border-radius: 10px;
+            font-weight: 500;
+}
+
+.onemorediv {
+
+  width: 250px;
+  height: 70px;
+  background: #333;
+  border-radius: 20px;
+  position: absolute;
+  left: 700px;
+  top: 270px;
+  color: #fff;
+  font-size: 14px;
+
+}
+
+img {
+  position: absolute;
+  left: 115px;
+  top: 50px;
+}
+.footer {
+  position: absolute;
+  left: 20px ;
+  top: 30px;
+}
+
+.footer1 {
+position: absolute;
+left: 135px;
+top: 45px;
+color: #6cf;
+}

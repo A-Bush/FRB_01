@@ -1,0 +1,211 @@
+body {
+       margin: 0;
+       color: #5F7A77;
+       font: 13px/19px Arial, Helvetica, sans-serif;
+      //* background: url(images/main-bg.gif) 0 0 repeat-x #fff; *//
+}
+
+header  {
+
+           background: url(images/main-bg.gif) 0 0 repeat-x #fff;
+
+}
+
+.paneltop {
+          background: url(images/topbg.jpg) no-repeat;
+          position: relative;
+          margin: 0 auto;
+          width: 770px;
+          height: 65px;
+}
+         .paneltop img.logo {
+           position: absolute;
+           width: 136px;
+           height: 31px;
+           top: 12px;
+           left: 245px;
+         }
+
+        .paneltop p.p1 {
+          position: absolute;
+          width: 200px;
+          color: #828282;
+          top: 27px;
+          left: 245px;
+
+        }
+
+.headertop {
+
+        background:url(images/header.jpg) 0 0 no-repeat;
+        margin: 0 auto;
+        position: relative;
+        width: 768px;
+        height: 164px;
+
+}
+
+.headertop ul.ultop {
+             left: 50px;
+              position: absolute;
+              list-style: none;
+
+}
+
+.headertop ul.ultop li {
+
+              width: 82px;
+              height: 22px;
+              border-bottom: 1px dashed #AECCCA;
+
+
+
+}
+
+.headertop ul.ultop li a {
+              text-decoration: none;
+              background: url(images/bullet-normal.gif) 0 7px no-repeat #fff;
+              color:#305E5C;
+              width: 72px;
+              height: 22px;
+              padding-left: 15px;
+              line-height: 22px;
+}
+
+.headertop ul.ultop li a:hover {
+              text-decoration: none;
+              background: url(images/bullet-hover.gif) 0 7px no-repeat #fff;
+              color:#305E5C;
+              width: 72px;
+              height: 22px;
+              padding-left: 15px;
+              line-height: 22px;
+}
+
+.headertop ul.ultop li:last-child {
+             border-bottom: none;
+}
+
+.content {
+
+margin-left: 340px;
+
+}
+
+
+
+.content .leftpanel {
+               float: left;
+               width: 114px;
+               display: block;
+ }
+
+ .content .leftpanel h2 {
+
+              width: 114px;
+              height: 34px;
+              color: #5F7A77;
+              line-height: 34px;
+              font-size: 18px;
+              margin-left: 40px;
+ }
+
+ .content .leftpanel ul {
+   list-style: none;
+   margin-top: -15px;
+ }
+ .content .leftpanel ul li {
+            width: 114px;
+            height: 24px;
+
+ }
+
+ .content .leftpanel ul li a {
+
+            width: 102px;
+            height: 24px;
+            display: block;
+            background: url(images/bullet2-normal.gif) 0 10px no-repeat #fff;
+            color: #5F7A77;
+            text-decoration: none;
+            line-height: 24px;
+            padding-left: 12px;
+ }
+
+ .content .leftpanel ul li a:hover {
+                     background: url(images/bullet2-hover.gif) 0 10px no-repeat #fff;
+                     color: #5F7A77;
+                     text-decoration: none;
+                 }
+.content .rightpanel {
+           float: left;
+           width: 511px;
+           margin-top: 28px 0 0;
+           padding: 0 30px;
+}
+
+.content .rightpanel .oneline {
+            float: left;
+            width: 502px;
+            height: 25px;
+            background: url(images/sky-color-bg.gif) 0 10px repeat-x;
+            margin-left: 30px;
+}
+
+.content .rightpanel p.oneline a {
+
+           width: 92px;
+           height: 21px;
+           display: block;
+           background: url(images/special.gif) 0 0 no-repeat #fff;
+           color:#958201;
+           line-height:21px;
+           text-transform: uppercase;
+           text-decoration: none;
+           margin: 0 0 0 328px;
+           padding: 4px 0 0 50px;
+}
+
+.content .rightpanel p.oneline a:hover {
+
+            background: url(images/buy.gif) 0 0 no-repeat #fff;
+            color: #645804;
+            text-decoration: none;
+}
+
+.content .rightpanel p {
+        padding: 0 0 10px 0;
+        margin-left: 30px;
+    }
+
+
+footer {
+        height: 150px;
+        clear: both;
+        margin-left: -400px;
+        background: url(images/footerbg.gif) 0 0 repeat-x #D3F0F0;
+        color: #2F5958;
+        font: 13px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+
+}
+footer ul {
+
+                width: 608px;
+                height: 20px;
+                position: relative;
+                margin-left: 400px;
+                margin-top: 80px;
+                padding-top: 30px;
+}
+
+footer ul li {display: inline;}
+
+footer ul li a {
+              text-decoration: none;
+              color: #2F5958;
+}
+
+footer .copyright {
+   margin-left: 440px;
+}
