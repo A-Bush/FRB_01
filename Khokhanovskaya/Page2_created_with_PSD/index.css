@@ -1,0 +1,671 @@
+body{   
+    margin: 0px;
+    background-color: #323232;
+}
+
+header{
+    height: 550px;
+    width: 1020px;
+    margin: 0 auto;
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    
+}
+
+.nav{
+    background-color: white;
+    height: 97px;
+}
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+.list{
+    list-style-type:none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#nav_list{
+    position: absolute;
+    top: 15px;
+    right: 55px;
+}
+
+.menu, .port_punkt{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 7px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    color: #444444;
+}
+
+.menu:hover a{
+    color: white;    
+}
+
+.menu:hover{
+    display: inline-block;
+    padding: 10px;
+    background-color: #1bbc9b;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#header_div{
+    height: 313px;
+    padding: 70px 200px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+        
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 100;
+    color: white;
+}
+
+.header_p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #dcdbda;
+}
+
+#more{
+    display:block;
+    height: auto;
+    width: 150px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #1bbc9b;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;    
+}
+
+#more:hover{
+    letter-spacing: 2px;
+    box-shadow: 3px -3px 2px 0px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+}
+
+#next{
+    width: 45px;
+    margin: auto;
+    border-radius:50%;
+}
+
+#next:hover{
+    width: 49px;
+    margin: auto;
+    box-shadow: 3px -3px 2px 0px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+}
+
+#portfolio_div{
+    height: 600px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 40px;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.headline{
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#port_list{
+    margin: 30px auto 20px;
+    width: 520px;
+}
+
+.port_punkt{
+    background-color: #1bbc9b;
+}
+
+.port_punkt a{
+    color: white;
+}
+
+.port_punkt:hover{
+    background-color: #16a086;
+}
+
+.icon{
+    float:left;
+    width: 175px;
+    height: 175px;
+    margin: 17px 30px;
+    display: block;
+    position: relative;
+}
+
+.icon .color{
+    opacity: 0;
+    float: left;
+    width: 175px;
+    height: 175px;
+    margin: 17px 30px;
+    display: block;
+    position: relative;
+    top: -196px;
+    left: -30px;
+}
+
+.icon .p_color{
+    visibility: hidden;
+    float:left;
+    position: relative;
+    top: -285px;
+    left: 25px;
+    color: white;
+    width: 120px;
+    height: 70px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.icon:hover .color{
+    opacity: 0.7; 
+}
+
+.icon:hover .p_color{
+    visibility: visible;
+}
+
+#about_div{
+    height: 570px;
+    width: 840px;
+    margin: 0 auto;
+    padding: 40px 90px;
+    background-color: #16a086;
+}
+
+.white{
+    color:white;
+}
+
+.person{
+    float: left;
+    margin: 25px 30px;
+    height: 420px;
+    width: 220px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+h3{
+    line-height: -2px;
+    margin: 20px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.job{
+    font-style: italic;
+    line-height: -2px;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.person .photo_hover{
+    visibility: hidden;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    height: 48px;
+    width: 180px;
+    /*background-color: #16a086;*/
+    background-color: rgba(22,160,134,0.8);
+}
+
+.info{
+    margin: 15px 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.social{
+    position: absolute;
+    top: -16px;
+    padding: 0px;
+}
+
+.soc{
+    display: inline-block;
+    height: 48px;
+    width: 41px;
+}
+
+
+.fc {
+    display: inline-block;
+    height: 48px;
+    width: 41px;
+    background: url('images/photo/icons.png') 0 0;
+}
+
+.twit {
+    display: inline-block;
+    height: 48px;
+    width: 41px;
+    background: url('images/photo/icons.png') -45px 0;
+}
+
+.goog {
+    display: inline-block;
+    height: 48px;
+    width: 41px;
+    background: url('images/photo/icons.png') -91px 0;
+}
+
+.ball, .ball:hover {
+    display: inline-block;
+    height: 48px;
+    width: 41px;
+    background: url('images/photo/icons.png') -140px 0;
+}
+
+.person:hover .photo_hover{
+    visibility: visible;
+}
+
+#contact_div{    
+    height: 440px;
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 40px;
+}
+
+form{
+    float: left;
+    width: 500px;
+    margin-top: 30px;
+}
+
+input[type=text]{
+    height: 32px;
+    width: 186px;
+    margin: 11px 10px;
+    border: 2px solid #bec3c7;
+    padding: 5px 15px;
+    color: #323232;
+}
+
+textarea{
+    height: 115px;
+    width: 430px;
+    margin: 11px 10px;
+    outline: none;
+    border: 2px solid #bec3c7;
+    padding: 15px;
+    color: #323232;
+    resize: none;
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 115px;
+    margin: 11px 10px;
+    background-color: #1bbc9b;
+    outline: none;
+    border: none;
+    position: relative;
+    right: -400px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.contacts{
+    float:left;
+    width: 220px;
+    height: 220px;
+    margin: 45px 10px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    /*background-color: #1bbc9b;*/
+    padding-left: 25px;
+}
+
+#information{
+    line-height: -2px;
+    margin: 20px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact_icon{
+    margin-right: 6px;
+    
+}
+
+
+footer{
+    height: 80px;
+    background-color: #2d3e50;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.copy{
+    display: inline-block;
+    margin: 0px;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.up{
+    display: inline-block;
+    float:right;
+}
+
+a.up {
+    background: url(images/up.png) #1bbc9b no-repeat 9px 9px;
+    width: 44px;
+    height: 44px;
+    margin: 20px 20px 0 0;
+}
+
+@media screen and (max-width: 720px) {
+ 
+    header{
+        height: 500px;
+        width: 500px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .nav{
+        height: 97px;
+    }
+
+    .logo{
+        left: 15px;
+    }
+
+    .list{
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #nav_list{
+        position: absolute;
+        top: 5px;
+        right: 15px;
+    }
+
+    .menu, .port_punkt{
+        display: block;
+        padding: 3px 10px;
+        margin: 0px 7px;
+    }
+
+    .menu:hover{
+        padding: 3px 10px;
+        margin: 0px 7px;
+    }
+
+    #header_div{
+        height: 363px;
+        padding: 20px;
+        background-color: #323232;
+    }
+
+    #portfolio_div{
+        height: 1030px;
+        width: 460px;
+        margin: 0 auto;
+        padding: 20px 20px;
+        background-color: white;
+    }
+
+    #port_list{
+        display: inline-block;
+        margin: 20px auto 20px;
+        width: 445px;
+    }
+    
+    .port_punkt{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .port_punkt:hover{
+        background-color: #16a086;
+    }
+
+    .icon{
+        margin: 17px 27px;
+    }
+
+    .icon .color{
+        margin: 17px 27px;
+        left: -27px;
+    }
+
+    #about_div{
+        height: 800px;
+        width: 460px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .person{
+        float: left;
+        margin: 5px 20px;
+        height: 220px;
+        width: 420px;
+    }
+
+    .photo{
+        float: left;
+        margin-right: 20px;
+    }
+    
+    #contact_div{    
+        height: 630px;
+        width: 460px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    form{
+        float: left;
+        width: 460px;
+        margin-top: 30px;
+    }
+
+    input[type=text]{
+        height: 32px;
+        width: 224px;
+        margin: 0px 0px 15px 100px;;
+    }
+
+    textarea{
+        height: 90px;
+        width: 224px;
+        margin: 0px 0px 10px 100px;
+    }
+
+    input[type=submit]{
+        height: 40px;
+        width: 258px;
+        margin: 0;
+        position: relative;
+        right: -100px;
+
+    }
+
+    .contacts{
+        width: 220px;
+        height: 220px;
+        margin: 20px 0px 0px 100px;
+    }
+
+    footer{
+        height: 80px;
+        width: 500px;
+    }
+
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 1020px) {
+     
+    header{
+        height: 460px;
+        width: 720px;
+        margin: 0 auto;
+        background: url(images/header.png) no-repeat bottom;
+    }
+
+    #nav_list{
+        right: 20px;
+    }
+
+    #header_div{
+        height: 323px;
+        padding: 20px;
+       /* background-color: #323232;*/
+    }
+
+    #portfolio_div{
+        height: 600px;
+        width: 680px;
+        padding: 20px 20px;
+    }
+
+    #port_list{
+        width: 500px;
+        margin: 20px 70px;
+    }
+    
+    .icon{
+        margin: 17px 25px;
+    }
+
+    .icon .color{
+        margin: 17px 27px;
+        left: -27px;
+    }
+    
+    #icon7, #icon8{
+        display: none;
+    }
+
+    #about_div{
+        height: 540px;
+        width: 680px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .person{
+        float: left;
+        margin: 15px 13px;
+        height: 400px;
+        width: 200px;
+    }
+
+    .photo{
+        /*float: left;
+        margin-right: 20px;*/
+        width: 200px;
+    }
+    
+    #contact_div{    
+        height: 430px;
+        width: 680px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    form{
+        /*float: left;*/
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    input[type=text]{
+        height: 32px;
+        width: 224px;
+        margin: 0px 0px 15px;
+    }
+
+    textarea{
+        height: 90px;
+        width: 224px;
+        margin: 0px 0px 10px;
+    }
+
+    input[type=submit]{
+        height: 40px;
+        width: 258px;
+        margin: 0;
+        position: relative;
+        right: 0px;
+
+    }
+
+    .contacts{
+        width: 220px;
+        height: 220px;
+        margin: 50px 0px;
+    }
+
+    footer{
+        height: 80px;
+        width: 720px;
+    }
+
+}
+
+
+
+
