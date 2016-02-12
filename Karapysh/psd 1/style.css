@@ -1,0 +1,511 @@
+body {
+       margin:0;
+      }
+
+header {
+
+         background-image: url(img/header/header_bg.jpg);
+         height:400px;
+         width: 1200px;
+         margin: 0 auto;
+
+}
+
+header div.lefttoplogo a img {
+
+         margin-top: 50px;
+         margin-left: 115px;
+}
+
+header .search {
+       position: relative;
+       float: right;
+       margin-right:120px;
+       margin-top:-60px;;
+}
+
+header .search button { border-radius: 25px;
+                        height: 50px;
+                        width: 50px;
+                        position: absolute;
+                        margin-top: -5px;
+                        margin-left: -5px;
+                         }
+
+
+header .search .textsearch {
+
+                 border-radius:10px;
+                 width: 260px;
+                 height: 33px;
+
+
+}
+header ul.nav {
+                    margin-left: 210px;
+                    margin-top: 70px;
+                    display: block;
+                  }
+
+header ul.nav li {
+             display: inline;
+             margin-right: 30px;
+             text-decoration:none;
+}
+
+header ul.nav li a {
+                     text-decoration:none;
+                     color: #ccc;
+                     font-size: 23px;
+
+                         }
+header .headerline {
+                    width: 860px;
+                    height: 5px;
+                    background: #fff;
+                    margin: 0 auto;
+}
+
+header .cursor     {
+  background-image: url(img/header/activex_cursor.png);
+  background-repeat: no-repeat;
+  background-position: 50% ;
+  display:none;
+}
+
+
+header ul.nav li a:hover  {
+
+                     color: #fff;
+
+
+}
+
+.center {
+
+        background-image: url(img/article/article_bg.jpg) ;
+        width: 1200px;
+        height: 1000px;
+        margin: 0 auto;
+        position: relative;
+}
+
+          .center .slide {
+                           background-image: url(img/article/slideshow.png);
+                           background-repeat: no-repeat;
+                           position: absolute;
+                           margin-left: 130px;
+                           margin-top: -100px;
+                           height: 405px;
+                           width: 940px;
+
+                               }
+
+       .center .slide button {
+              height: 50px;
+              width: 50px;
+              border-radius:25px;
+              border: none; //* после добавления border:none батоны перестали нажиматься *//
+
+
+       }
+
+       .center .slide button.leftbutton {
+                              position: absolute;
+                              top:185px;
+                              left: -20px;
+                              background:url(img/article/btn_left.png)  no-repeat;
+
+                               }
+       .center .slide button.rightbutton {
+                              position: absolute;
+                              left: 910px;
+                              top:185px;
+                              background: url(img/article/btn_right.png) no-repeat;
+       }
+
+
+
+       .center .slide .bottomlist button.button1  {
+                       width: 166px;
+                       height: 28px;
+                       border-radius: 10px;
+                       margin-top: 355px;
+                       margin-left: 55px;
+                       margin-right: 2px;
+                       background: #fff;
+                       color:#ccc;
+                       font-weight: bold;
+       }
+
+       .center .slide .bottomlist button.button1:hover {
+
+         background: #ccc;
+         color:#fff;
+
+       }
+
+       .center .bookmark
+                  {
+
+                  }
+
+        .center .bookmark .bookmark1 , .center .bookmark .bookmark2 , .center .bookmark .bookmark3 {
+
+                                          background-image: url(img/article/bookmark/bookmark_bg_before.png);
+                                          width: 260px;
+                                          height: 90px;
+                                          position: absolute;
+                                        }
+
+    .center .bookmark .bookmark1 {
+                                          top: 360px;
+                                          left:190px;
+
+                                        }
+
+                                        .center .bookmark .bookmark2 {
+                                                                              top: 360px;
+                                                                              left:470px;
+
+                                                                            }
+                                                                            .center .bookmark .bookmark3 {
+                                                                                                                  top: 360px;
+                                                                                                                  left:750px;
+
+                                                                                                                }
+                      .center .bookmark .bookmark1:hover , .center .bookmark .bookmark2:hover , .center .bookmark .bookmark3:hover {
+
+                                            background-image: url(img/article/bookmark/bookmark_bg_after.png);
+                                            width: 260px;
+                                            height: 90px;
+                                            position: absolute;
+                                                                              }
+      .center .bookmark .bookmark1 .icon1 , .center .bookmark .bookmark2 .icon2 , .center .bookmark .bookmark3 .icon3  {
+
+                                   position: absolute;
+                                   left: 15px;
+                                   top: 25px;
+
+      }
+
+   .center .bookmark .bookmark1 .icon1 {
+                                    background-image: url(img/article/bookmark/bookmark_icon1.png);
+                                    width: 42px;
+                                    height: 45px;
+                                  }
+                                  .center .bookmark .bookmark2 .icon2 {
+                                                                   background-image: url(img/article/bookmark/bookmark_icon2.png);
+                                                                   width: 45px;
+                                                                   height: 45px;
+                                                                 }
+                                                                 .center .bookmark .bookmark3 .icon3 {
+                                                                                                  background-image: url(img/article/bookmark/bookmark_icon3.png);
+                                                                                                  width: 45px;
+                                                                                                  height: 45px;
+                                                                }
+
+.bigspan {
+            display: block;
+            position: absolute;
+            top: 30px;
+            left: 75px;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color: #666;
+             }
+.lessspan {
+           display: block;
+           position: absolute;
+           top: 50px;
+           left: 75px;
+           font-size: 12px;
+           color: #666;
+
+}
+
+     .center .line {
+                         width: 960px;
+                         height: 1px;
+                         background: #c0c0c0;
+                         position:relative;
+                         top: 450px;
+                         margin: 0 auto;
+                         box-shadow:0px -1px 4px 1px #c0c0c0;
+
+     }
+
+ .center .leftside {
+   position: absolute;
+   left: 190px;
+   top: 500px;
+
+ }
+
+ .center .leftside .onediv {
+                     width: 360px;
+                     height: 50px;
+                     margin-bottom: 23px;
+                     background-image: url(img/article/section_left/left_section1_bg.png);
+
+ }
+
+ .center .leftside .onediv img {
+           position: absolute;
+           padding-left: 15px;
+           padding-top: 20px;
+
+ }
+
+ .center .leftside .onediv span.leftsidetext {
+
+          display: block;
+          width:170px;
+          margin-left: 40px;
+          padding-top: 5px;
+          font-size: 13px;
+          color:#ccc;
+
+ }
+
+ .center .leftside .onediv .b {
+
+              float: right;
+              margin-right: 20px;
+              margin-top: -31px;
+              width: 100px;
+              height: 30px;
+              border: 1px solid #ccc;
+              color:#ccc;
+ }
+
+.center .rightside {
+
+            width:360px;
+            height: 273px;
+            position: relative;
+            background-image: url(img/article/section_right/content_bg_right.png);
+            left: 650px;
+            top: 500px;
+}
+
+.center .rightside .insideright {
+           width: 324px;
+           height: 46px;
+           background-image: url(img/article/section_right/content_right_title.png);
+           position: absolute;
+           left: 20px;
+           top: 12px;
+
+}
+
+.center .rightside .insideright  span {
+  display: block;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.center .rightside .btn1 {
+   margin-top: 80px;
+   margin-left: 25px;
+
+}
+.center .rightside .btn2 , .center .rightside .btn3 {
+   margin-top: 80px;
+   margin-left: 30px;
+
+}
+
+.center .rightside .btn4 {
+   margin-top: 15px;
+   margin-left: 25px;
+
+}
+
+.center .rightside .btn5 , .center .rightside .btn6 {
+
+   margin-left: 30px;
+
+}
+
+.center .onemoreline    {
+	background:#ccc;
+	width:956px;
+	height:1px;
+	margin:0 auto;
+	position:relative;
+	top:515px;
+	box-shadow:0px 1px 4px 1px #ccc;
+}
+
+ .center .comment {
+                        width: 820px;
+                        height: 134px;
+                        background-image: url(img/article/comment_bg.png);
+                        position: relative;
+                        top:550px;
+                        margin: 0 auto;
+}
+
+.center .comment .manicon {
+
+                position: absolute;
+                top: 75px;
+                left: 10px;
+
+}
+
+.center .comment .insidecomment {
+
+                   width: 741px;
+                   height: 108px;
+                   background-image: url(img/article/comment_block.png);
+                   position: absolute;
+                   top: 12px;
+                   left: 65px;
+}
+
+.center .comment .insidecomment pre {
+                     display: block;
+                     margin-left: 50px;
+                     margin-top: -5px;
+                     font-size: 11px;
+                     color: #ccc;}
+
+.center .comment .insidecomment .up {
+
+               margin-left: 50px;
+               margin-top: 10px;
+}
+
+.center .comment .insidecomment .down {
+
+              position: absolute;
+              left: 700px;
+              top: 80px;
+}
+
+footer {
+
+      background-image: url(img/footer/footer_bg.jpg);
+      height: 300px;
+      width: 1200px;
+      margin: 0 auto;
+}
+
+footer .linefooter {
+  width:1200px;
+  height:2px;
+  margin:0 auto;
+  background:#b1b1b1;
+  box-shadow:0px 4px 7px 0px #fafafa;
+}
+
+footer .headfooter img {
+	margin:15px 10px 0 210px;
+}
+footer  .spaninheadfooter {
+	position:relative;
+	bottom:8px;
+	font-size:22px;
+	color:#bababc;
+}
+footer .oneofthelastline {
+	background:#669;
+	width:860px;
+	height:1px;
+	box-shadow:0px 1px 1px 0px #c0c0c0;
+	margin:0 auto;
+}
+
+footer .leftfooter {
+
+             width: 360px;
+             height: 134px;
+             background-image: url(img/footer/footer_block.png);
+             position: relative;
+             margin-top: 25px;
+             margin-left: 190px;
+}
+
+footer .rightfooter {
+
+             width: 360px;
+             height: 134px;
+             background-image: url(img/footer/footer_block.png);
+             position: relative;
+             margin-left: 650px;
+             margin-top: -150px;
+}
+footer .spanhead {
+	font-size:20px;
+	color:#7198b1; }
+
+  footer .spantext {
+
+    margin-top:5px;
+    font-size:15px;
+    color:#ccc;
+  }
+
+  footer .leftfooter .footerbutton , footer .rightfooter .footerbutton  {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 240px;
+    bottom: 5px;
+    border-color: #ccc;
+    border-radius: 7px;
+    background: #ccc;
+
+  }
+
+
+  .footerbottom {
+  	position:relative;
+    top: 40px;
+
+  	background:#bababc;
+  	border-top:1px solid #d2d2d4;
+  	box-shadow:0px -3px 7px 0px #bababc;
+  	width:1200px;
+  	height:37px;
+
+  }
+ footer  .footerbottom a{
+  	text-decoration:none;
+  	color:#939394;
+  }
+ footer  .footerbottom a:hover{
+  	color:#f5f5f5;
+  }
+footer  .footermenu1, .footermenu, .footermenu2 {
+  	float:left;
+  	height:15px;
+  	text-align:center;
+  	padding:0px 10px;
+  	position:relative;
+  	bottom:-10px;
+  	left:160px;
+  	font-size:0.9em;
+  }
+footer  .footermenu1 {
+  	border-right:1px solid #939394;
+  }
+footer  .footermenu{
+  	border-right:1px solid #939394;
+  	border-left:1px solid #939394;
+  }
+footer  .footermenu2 {
+  	border-left:1px solid #939394;
+  }
+footer  .copyright{
+  	position:relative;
+  	right:-350px;
+  	bottom:-10px;
+  	font-size:0.9em;
+  	color:#939394;
+  }
