@@ -1,0 +1,507 @@
+/*Общее*/
+
+body{
+    margin: 0;
+    background-image: url(images/bd.png);
+    font-family: 'Arial', sans-serif;
+}
+
+.center{
+    width: 735px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.left_div{
+    width: 337px;
+    margin: 15px;
+    float: left;
+    position: relative;
+}
+
+.right_div{
+    width: 337px;
+    margin: 15px;
+    float: right;
+}
+
+.white{
+    color: white;
+}
+
+.sky_blue{
+    color: #5fbecc;
+}
+
+/*1. Header*/
+
+.header{
+    height: 230px;
+    background-image: linear-gradient(#fcfcfc,#fafafa,#f9f9f9,#f1f1f1);
+    box-shadow: inset 0px 20px 60px 0px rgba(204, 204, 204, 0.5);
+    border-radius: 7px 7px 0px 0px;
+    margin: 60px auto 0;
+    position: relative;
+}
+
+h1{
+    font-size: 4em;
+    color: #585858;
+    line-height: 0.8em;
+    margin: 0;
+}
+
+.vertical{
+    transform: rotate(90deg);
+    
+}
+
+.blue{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    right: -30px;
+    background: #5ab5c2;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0px;
+    color: white;
+    box-shadow: 0px 5px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.grey{
+    width: 25px;
+    height: 34px;
+    position: absolute;
+    right: -25px;
+    top: 95px;
+    background: #cecece;
+    font-size: 12px;
+    color: white;
+    padding: 18px 0;
+    box-shadow: 0px 5px 1px 0px rgba(0, 0, 0, 0.4), inset 0px 5px 1px 0px rgba(0, 0, 0, 0.4) ;
+}
+
+
+/*1.1. Header Navigation*/
+
+.nav{
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #585858;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5fbecc;
+}
+
+nav li {
+    width: 109px;
+    height: 37px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 20px;
+    line-height: 34px;
+}
+
+nav li:hover{
+    background-color: #5fbecc;  
+}
+
+nav li:hover a{
+    color: #fff;
+}
+
+
+/*2. Section*/
+
+.section{
+    height: 310px;
+    background-image: linear-gradient(#f4f4f4,#fdfdfd);
+}
+
+h2{
+    font-size: 14px;
+    color: #585858;
+    line-height: 18px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+h2::before{
+    content: url(images/search.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.welcome_image{
+    margin: 15px 0px;
+}
+
+.main_text{
+    font-size: 12px;
+    font-weight: 100;
+    color: #858585;
+    margin: 0;
+    line-height: 12px;
+}
+
+.for_line{
+    height: 280px;
+    position: relative;
+}
+
+.line{
+    width: 337px;
+    height: 6px;
+    background-color: #959595;
+    position: absolute;
+    bottom: 0px;
+}
+
+.service{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_image{
+    float: left;
+    margin-right: 15px;
+    vertical-align: 
+}
+
+.service_name{
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #585858;
+    margin: 30px 0 0 0;
+    transition-duration: 0.3s;
+}
+
+.service li a{
+    text-decoration: none;
+}
+
+.service li a:hover .service_name{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+
+/*3. Footer*/
+
+.footer{
+    height: 300px;
+    background-image: linear-gradient(#fcfcfc,#f4f4f4,#bcbcbc);
+    box-shadow: 0px 5px 1px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+/*3.1 Footer twitter*/
+
+.twit{
+    background: url(images/twit_big.png) no-repeat;
+    height: 38px;
+    margin: 15px 0px;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 11px;
+}
+
+.twitter_link{
+    color: #85ecff;
+    text-decoration: none;
+}
+
+.twitter_link:hover{
+    text-decoration: underline;
+}
+
+/*3.2. Footer icons*/
+
+.icons{
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.icons li{
+    display: inline-block;
+    margin: 0 1px;
+}
+
+footer{
+    height: 200px;
+    z-index: 1;
+}
+
+.copy{
+    width: 240px;
+    height: 15px;
+    background-color: #5ab4c2;
+    position: relative;
+    top: -15px;
+    box-shadow: 0px 5px 1px 0px rgba(0, 0, 0, 0.4), inset 0px 5px 1px 0px rgba(0, 0, 0, 0.4) ;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646464;
+}
+
+
+/*2.0 Contacts*/
+
+.contacts{
+    height: 325px;
+    background-image: linear-gradient(#f4f4f4,#fdfdfd);
+    position: relative;
+}
+
+form{
+    font-size: 12px;
+    color: #585858;
+}
+
+input[type=text], input[type=email]{
+    height: 20px;
+    width: 317px;
+    border-radius: 9px;
+    background-color: #d7d7d7;
+    box-shadow: inset 2px 4px 5px 0px rgba(0,0,0,0.3);
+    border: 1px solid #c3c3c3;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    height: 180px;
+    width: 317px;
+    resize: none;
+    border-radius: 9px;
+    background-color: #d7d7d7;
+    box-shadow: inset 2px 4px 5px 0px rgba(0,0,0,0.3);
+    border: 1px solid #c3c3c3;
+    padding: 5px 10px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 2px solid #eee;
+}
+
+label, .contacts div p{
+    text-shadow: 0px 0px 0px grey;
+}
+
+input[type=submit]{
+    background-image: linear-gradient(#5fbecc, #72cbd6);
+    width: 85px;
+    height: 30px;
+    color: #366c74;
+    border: 1px solid #72acaf;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px white;
+    float: right;
+    position: relative;
+    top: -10px;
+    transition-duration: 0.5s;
+}
+
+input[type=submit]:hover{
+    background-image: linear-gradient(#72cbd6, #5fbecc);
+    letter-spacing: 2px;
+}
+
+.big_line{
+    width: 735px;
+    height: 6px;
+    background-color: #959595;
+}
+
+.contact_info{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact{
+    color: #959595;
+    height: 40px;
+    margin: 0px 12px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 0px grey;
+    display: flex;
+    align-items: center;
+}
+
+.adress{
+    margin: 5px;
+}
+
+
+/*2.0/1 Works*/
+
+.works{    
+    height: 570px;
+    background-image: linear-gradient(#f4f4f4,#fdfdfd);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.works img{
+    margin: 7px;
+}
+
+.works h2{
+    width: 100%;
+}
+
+@media screen and (max-width: 840px){
+    .center{
+        width: 500px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .left_div{
+        width: 100%;
+        margin: 0px;
+        float: left;
+        position: relative;
+    }
+
+    .right_div{
+        width: 100%;
+        margin: 0px;
+        float: right;
+    }
+
+    .white{
+        color: white;
+    }
+
+    .sky_blue{
+        color: #5fbecc;
+    }
+
+    /*1. Header*/
+
+    .header{
+        height: 250px;
+        margin: 60px auto 0;
+    }
+
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .vertical, .blue, .grey{
+        display: none;
+    }
+
+    /*1.1. Header Navigation*/
+
+    .nav{
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    nav li {
+        border-radius: 0;
+        width: 200px;
+        display: block;
+    }
+
+    /*2. Section*/
+
+    .section{
+        height: 570px;
+    }
+
+    .welcome_image{
+        margin: 15px 80px;
+    }
+
+    .main_text{
+        font-size: 14px;
+        margin: 0 20px;
+        line-height: 16px;
+    }
+
+    .line{
+        width: 500px;
+    }
+
+    .service{
+        margin: 0 40px;
+    }
+
+    /*3. Footer*/
+
+    .footer{
+        height: 600px;
+    }
+
+    /*3.1 Footer twitter*/
+    /*3.2. Footer icons*/
+
+    .twit, .icons{
+        margin: 15px 80px;
+    }
+
+    /*3.2. Footer icons*/
+
+    /*2.0 Contacts*/
+
+    .contacts{
+        height: 625px;
+        text-align: center;
+    }
+    input[type=text], input[type=email]{
+        margin: 10px 70px;
+    }
+
+    textarea{
+        margin: 10px 70px 50px;
+        height: 150px;
+    }
+    
+    input[type=submit]{
+        width: 185px;
+        position: relative;
+        top: 225px;
+        right: 160px;
+    }
+
+    /*2.0/1 Works*/
+
+    .works{    
+        height: 570px;
+    }
+    
+    .works img:first-of-type, .works img:last-of-type{    
+        display: none;
+    }
+}
+
